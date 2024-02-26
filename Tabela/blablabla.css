@@ -1,0 +1,39 @@
+.tecido{
+    color: rgb(0, 0, 0);
+    width: 100px;
+}
+.tamanho{
+    color: rgb(0, 0, 0);
+    width: 100px;
+}
+.quantidade{
+    color: rgb(0, 0, 0);
+    width: 100px;
+}
+
+body,
+th{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    gap: 2vh;
+}
+tr{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:first baseline;
+    gap: 2vh;
+} 
+h1{
+    color: rgb(212, 182, 7)
+}
+td{
+    width: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    gap: 2vh;
+}
